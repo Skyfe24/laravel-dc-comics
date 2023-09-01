@@ -4,10 +4,10 @@
 
 @section('content')
     <div class="card-header text-center mb-3 bg-white">
-        <h1> {{ $comic->title }}</h1>
+        <h1> {{ $Comic->title }}</h1>
     </div>
     <div class="card-body">
-        <p> {{ $comic->description}}   </p>
+        <p> {{ $Comic->description}}   </p>
         
 
 @endsection
